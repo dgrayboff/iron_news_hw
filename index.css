@@ -48,9 +48,44 @@ table {
 }
 
 /* START */
-* {
-	color: green;
-}
 .navbar {
+	background-color: grey;
 	display: inline-block;
+	text-decoration: none;
+}
+
+#iheader {
+	color: #FFF;
+	border-style: solid;
+	border-width: 1px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.ironnews {
+		font-weight: 600;
+}
+
+.navoptions {
+	text-decoration: none;
+}
+
+li {
+display: inline-block;
+text-decoration: none;
+}
+
+
+
+#iheader, .ironnews, .navoptions, .login {
+	display: inline-block;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
