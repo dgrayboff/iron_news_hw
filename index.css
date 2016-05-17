@@ -47,45 +47,90 @@ table {
 	border-spacing: 0;
 }
 
-/* START */
+
+
+
+
+
+/* ////////////////////// START ////////////////////// */
+
+
 .navbar {
-	background-color: grey;
+	background-color: #8D90A1;
 	display: inline-block;
+	line-height:.5em;
+
+}
+
+.navbar a {
 	text-decoration: none;
+	color: black;
 }
 
 #iheader {
 	color: #FFF;
 	border-style: solid;
 	border-width: 1px;
-	padding: 10px;
+	padding: 8px;
 	font-weight: bold;
+	margin: 5px;
+
 }
 
 .ironnews {
 		font-weight: 600;
+		padding-right: 10px;
 }
 
 .navoptions {
 	text-decoration: none;
 }
 
+#iheader, .ironnews, .navoptions, .login {
+	display: inline-block;
+}
+
+.pipe {
+	color: #FFF;
+	font-weight: 200;
+	font-size: 18px;
+}
+
+.login {
+  top:10px;
+  right: 10px;
+}
 li {
 display: inline-block;
 text-decoration: none;
 }
 
-
-
-#iheader, .ironnews, .navoptions, .login {
-	display: inline-block;
+body {
+	background-color: #EEF0F3;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
 }
 
-
-
-
 ul {
-    list-style-type: none;
+		list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.triangle {
+	width: 15px;
+	padding-top: 10px;
+
+}
+
+.contentlink {
+	text-decoration: none;
+	color: #939393;
+	font-size: smaller;
+}
+
+.points {
+	font-size: x-small;
+	color: #939393;
+	text-indent: 40px;
 }
